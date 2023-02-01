@@ -1,3 +1,5 @@
+/* Header content aligned using FLEX */
+
 .header {
     height: 115px;
     background-color: #FFFFFF;
@@ -16,7 +18,7 @@
     align-items: center;
 }
 
-.nav__form {
+.nav__logoSearch__search {
     width: 393px;
     height: 40px;
     margin-left: 32px;
@@ -24,7 +26,7 @@
     border-radius: 20px;
 }
 
-.nav__form input {
+.nav__logoSearch__search input {
     width: 329px;
     height: inherit;
     border: none;
@@ -35,7 +37,7 @@
     font-weight: 400;
 }
 
-.nav__form button {
+.nav__logoSearch__search button {
     vertical-align: middle;
     border: none;
     background-color: inherit;
@@ -65,17 +67,3 @@
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #A2A2A2;
 }
-
-/* .header {
-    height: 7rem;
-}
-
-.header__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header__nav__search {
-    padding-left: 2rem;
-} */
