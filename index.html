@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/blocks/header.css">
 	<link rel="stylesheet" href="assets/css/blocks/banner.css">
 	<link rel="stylesheet" href="assets/css/blocks/popular.css">
+	<link rel="stylesheet" href="assets/css/blocks/footer.css">
 </head>
 <body>
 
@@ -202,20 +203,23 @@
 
 	<footer>
 
-		<section class="contactInfo">
+		<section class="info">
 			<div class="container">
 				<div class="footer">
+
 					<div class="footer__logo">
 						<img class="" src="assets/img/Logo.svg" alt="Logo de AluraGeek">
 					</div>
-					<div class="footer__links">
-						<a href="#">Quiénes somos</a>
-						<a href="#">Política de privacidad</a>
-						<a href="#">Programa de fidelidad</a>
-						<a href="#">Nuestras tiendas</a>
-						<a href="#">Quiero ser franquiciado</a>
-						<a href="#">Anuncie aquí</a>
+
+					<div class="footer__navmap">
+						<a href="#" class="footer__navmap__link">Quiénes somos</a>
+						<a href="#" class="footer__navmap__link">Política de privacidad</a>
+						<a href="#" class="footer__navmap__link">Programa de fidelidad</a>
+						<a href="#" class="footer__navmap__link">Nuestras tiendas</a>
+						<a href="#" class="footer__navmap__link">Quiero ser franquiciado</a>
+						<a href="#" class="footer__navmap__link">Anuncie aquí</a>
 					</div>
+
 					<div class="footer__contact">
 						<form action="#">
 							<fieldset class="form">
@@ -223,17 +227,17 @@
 
 								<fieldset class="form__nombre">
 									<label for="nombre">Nombre</label>
-									<input type="text" required>
+									<input class="no-focus" type="text" required>
 								</fieldset>
 
-								<textarea name="mensaje" id="" cols="30" rows="10" required placeholder="Escribe tu mensaje"></textarea>
+								<textarea class="form__text no-focus" name="mensaje" id="" required placeholder="Escribe tu mensaje"></textarea>
 
-								<button type="submit">Enviar mensaje</button>
+								<button class="form__button" type="submit">Enviar mensaje</button>
 							</fieldset>
 						</form>
 					</div>
+
 				</div>
-				
 			</div>
 		</section>
 

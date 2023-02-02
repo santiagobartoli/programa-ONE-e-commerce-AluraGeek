@@ -1,0 +1,105 @@
+.info {
+    background-color: #EAF2FD;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+    margin-top: 64px;
+
+    color: #464646;
+}
+
+.footer__navmap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__navmap__link {
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit;
+}
+
+.footer__contact {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+}
+
+.form legend {
+    font-weight: 700;
+}
+
+.form__nombre {
+    margin-top: 8px;
+    padding: 8px 12px;
+
+    background-color: #FFFFFF;
+}
+
+.form__nombre label {
+    font-size: 12px;
+    color: #A2A2A2;
+}
+
+.form__nombre input {
+    display: block;
+    margin-top: 4px;
+    width: -webkit-fill-available;
+
+    line-height: 20px;
+}
+
+.form__text {
+    margin-top: 16px;
+    padding: 16px 12px;
+    height: 3em;
+    border: none;
+
+    resize: none;
+
+    font: inherit;
+}
+
+.no-focus {
+    outline: none;
+}
+
+.form__button {
+    display: block;
+    margin-top: 8px;
+    width: 144px;
+    height: 51px;
+    border: none;
+
+    background: #2A7AE4;
+
+    font: inherit;
+    text-align: center;
+    /* line-height: 51px; */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* * * AUTHOR SECTION * * */
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+
+    background-color: #FFFFFF;
+
+    color: #464646;
+    text-align: center;
+    font-size: 16px;
+}
