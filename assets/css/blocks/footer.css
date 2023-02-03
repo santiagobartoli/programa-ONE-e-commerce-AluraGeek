@@ -1,5 +1,5 @@
 .info {
-    background-color: #EAF2FD;
+    background-color: var(--background-light-blue);
 }
 
 .footer {
@@ -8,7 +8,7 @@
     padding: 64px 0;
     margin-top: 64px;
 
-    color: #464646;
+    color: var(--font-grey);
 }
 
 .footer__navmap {
@@ -19,7 +19,7 @@
 
 .footer__navmap__link {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: var(--font-weight-semibold);
     color: inherit;
 }
 
@@ -31,23 +31,23 @@
     display: flex;
     flex-direction: column;
 
-    font-weight: 400;
+    font-weight: var(--font-weight-normal);
 }
 
 .form legend {
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
 }
 
 .form__nombre {
     margin-top: 8px;
     padding: 8px 12px;
 
-    background-color: #FFFFFF;
+    background-color: var(--background-white);
 }
 
 .form__nombre label {
     font-size: 12px;
-    color: #A2A2A2;
+    color: var(--font-light-grey);
 }
 
 .form__nombre input {
@@ -74,19 +74,10 @@
 }
 
 .form__button {
-    display: block;
     margin-top: 8px;
-    width: 144px;
-    height: 51px;
     border: none;
 
-    background: #2A7AE4;
-
     font: inherit;
-    text-align: center;
-    /* line-height: 51px; */
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 /* * * AUTHOR SECTION * * */
@@ -97,9 +88,9 @@
     justify-content: center;
     padding: 32px 0;
 
-    background-color: #FFFFFF;
+    background-color: var(--background-white);
 
-    color: #464646;
+    color: var(--font-grey);
     text-align: center;
     font-size: 16px;
 }

@@ -1,14 +1,14 @@
 .category {
     margin-top: 64px;
 
-    color: #464646;
+    color: var(--font-grey);
 }
 
 .category__header {
     display: flex;
     justify-content: space-between;
 
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
 }
 
 .category__name {
@@ -21,7 +21,7 @@
 
     font-size: 16px;
     text-decoration: none;
-    color: #2A7AE4;
+    color: var(--color-blue-alura);
 }
 
 .category__link img {
@@ -33,7 +33,6 @@
 .category__products {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     gap: 16px;
     margin-top: 16px;
 }
@@ -43,17 +42,17 @@
 }
 
 .product__name {
-    font-weight: 500;
+    font-weight: var(--font-weight-semibold);
 }
 
 .product__price {
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
 }
 
 .product__link {
     display: block;
     
     text-decoration: none;
-    font-weight: 700;
-    color: #2A7AE4;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-blue-alura);
 }

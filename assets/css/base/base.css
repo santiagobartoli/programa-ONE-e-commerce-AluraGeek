@@ -1,7 +1,24 @@
+:root {
+    --background-light-grey: #F5F5F5;
+    --background-light-blue: #EAF2FD;
+    --background-white: #FFFFFF;
+
+    --color-blue-alura: #2A7AE4;
+    
+    --font-raleway: 'Raleway', sans-serif;
+    
+    --font-weight-normal: 400;
+    --font-weight-semibold: 500;
+    --font-weight-bold: 700;
+    
+    --font-grey: #464646;
+    --font-light-grey: #A2A2A2;
+}
+
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #F5F5F5;
-    font-weight: 400;
+    font-family: var(--font-raleway);
+    background-color: var(--background-light-grey);
+    font-weight: var(--font-weight-normal);
 }
 
 .container {
@@ -10,4 +27,15 @@ body {
     position: relative;
 }
 
+.button {
+    display: block;
+    padding: 16px;
+    width: fit-content;
+
+    background: var(--color-blue-alura);
+    
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
 

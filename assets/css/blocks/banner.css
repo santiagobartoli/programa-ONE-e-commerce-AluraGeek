@@ -28,14 +28,5 @@
 }
 
 .banner__button {
-    display: block;
     margin-top: 16px;
-    width: 182px;
-    height: 51px;
-    background: #2A7AE4;
-
-    text-align: center;
-    line-height: 51px;
-    text-decoration: none;
-    color: #FFFFFF;
 }

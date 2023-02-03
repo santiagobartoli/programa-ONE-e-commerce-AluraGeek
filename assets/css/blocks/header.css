@@ -2,7 +2,7 @@
 
 .header {
     height: 115px;
-    background-color: #FFFFFF;
+    background-color: var(--background-white);
 }
 
 .nav {
@@ -22,7 +22,7 @@
     width: 393px;
     height: 40px;
     margin-left: 32px;
-    background: #F5F5F5;
+    background: var(--background-light-grey);
     border-radius: 20px;
 }
 
@@ -42,26 +42,24 @@
     background-color: inherit;
 }
 
-.nav__login {
-    width: 182px;
-    height: 51px;
-    border: 1px solid #2A7AE4;
+.nav__button {
+    padding: 16px 70px;
 
-    text-align: center;
-    line-height: 51px;
-    text-decoration: none;
-    color: #2A7AE4;
+    background: var(--background-white);
+    border: 1px solid var(--color-blue-alura);
+    
+    color: var(--color-blue-alura);
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #A2A2A2;
+    color: var(--font-light-grey);
     opacity: 1; /* Firefox */
 }
   
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #A2A2A2;
+    color: var(--font-light-grey);
 }
   
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #A2A2A2;
+    color: var(--font-light-grey);
 }
