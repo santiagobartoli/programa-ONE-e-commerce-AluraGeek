@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AluraGeek</title>
+	<!-- <link href="assets/css/base/normalize.css" rel="stylesheet"> -->
+	<link href="assets/css/base/reset.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/base/base.css">
+	<link rel="stylesheet" href="assets/css/blocks/header.css">
+	<link rel="stylesheet" href="assets/css/blocks/newproduct.css">
+	<link rel="stylesheet" href="assets/css/blocks/footer.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="nav">
+
+				<div class="nav__logoSearch">
+					<img class="nav__logoSearch__logo" src="assets/img/Logo.svg" alt="Logo de AluraGeek">
+					<form action="#" class="nav__logoSearch__search">
+					  <input type="text" placeholder="¿Qué deseas buscar?" name="search">
+					  <button type="submit"><img src="assets/img/VectorSearch-icon.svg" alt="Search icon"></button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+    <main>
+        <div class="newProduct">
+            <form action="#">
+                <fieldset class="newProduct__form">
+                    <legend>Agregar un producto</legend>
+
+                    <fieldset class="form__field border--style">
+                        <label for="url">URL de la imagen</label>
+                        <input class="no-focus" type="text" placeholder="" title="Ingrese la url de la imagen" required>
+                    </fieldset>
+                    <fieldset class="form__field border--style">
+                        <label for="category">Categoría</label>
+                        <input class="no-focus" type="text" placeholder="" title="Ingrese la categoría" required>
+                    </fieldset>
+                    <fieldset class="form__field border--style">
+                        <label for="product-name">Nombre del producto</label>
+                        <input class="no-focus" type="text" placeholder="" title="Ingrese el nombre" required>
+                    </fieldset>
+                    <fieldset class="form__field border--style">
+                        <label for="price">Precio del producto</label>
+                        <input class="no-focus" type="text" placeholder="" title="Ingrese el precio" required>
+                    </fieldset>
+
+                    <textarea class="form__text no-focus border--style" name="mensaje" id="" required placeholder="Descripción del producto"></textarea>
+
+                    <button class="newProduct__form__button button" type="submit">Enviar mensaje</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+	<footer>
+
+		<section class="info">
+			<div class="container">
+				<div class="footer">
+
+					<div class="footer__logo">
+						<img class="" src="assets/img/Logo.svg" alt="Logo de AluraGeek">
+					</div>
+
+					<div class="footer__navmap">
+						<a href="#" class="footer__navmap__link">Quiénes somos</a>
+						<a href="#" class="footer__navmap__link">Política de privacidad</a>
+						<a href="#" class="footer__navmap__link">Programa de fidelidad</a>
+						<a href="#" class="footer__navmap__link">Nuestras tiendas</a>
+						<a href="#" class="footer__navmap__link">Quiero ser franquiciado</a>
+						<a href="#" class="footer__navmap__link">Anuncie aquí</a>
+					</div>
+
+					<div class="footer__contact">
+						<form action="#">
+							<fieldset class="form">
+								<legend>Hable con nosotros</legend>
+
+								<fieldset class="form__nombre border--style">
+									<label for="nombre">Nombre</label>
+									<input class="no-focus" type="text" placeholder="" title="Ingrese su nombre" required>
+								</fieldset>
+
+								<textarea class="form__text no-focus border--style" name="mensaje" id="" required placeholder="Escribe tu mensaje"></textarea>
+
+								<button class="form__button button" type="submit">Enviar mensaje</button>
+							</fieldset>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="author">
+			<p>Desarrollado por Santiago Bartoli<br>2023</p>
+		</section>
+	</footer>
+
+</body>
+</html>

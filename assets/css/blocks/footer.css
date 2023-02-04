@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     padding: 64px 0;
-    margin-top: 64px;
 
     color: var(--font-grey);
 }
@@ -62,7 +61,6 @@
     margin-top: 16px;
     padding: 16px 12px;
     height: 3em;
-    border: none;
 
     resize: none;
 
