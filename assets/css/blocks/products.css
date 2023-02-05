@@ -43,32 +43,6 @@
     margin-top: 16px;
 }
 
-/* .list__products::after {
-    content: "";
-    flex: auto;
-} */
-
 .product {
-    /* margin-left: 16px; */
     margin-bottom: 64px;
-}
-
-.box {
-    margin-top: 8px;
-}
-
-.product__name {
-    font-weight: var(--font-weight-semibold);
-}
-
-.product__price {
-    font-weight: var(--font-weight-bold);
-}
-
-.product__link {
-    display: block;
-    
-    text-decoration: none;
-    font-weight: var(--font-weight-bold);
-    color: var(--color-blue-alura);
 }
