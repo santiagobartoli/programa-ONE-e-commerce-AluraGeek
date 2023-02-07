@@ -1,0 +1,32 @@
+/* Banner content aligned using POSITION */
+
+.banner {
+    height: 352px;
+
+    background-image: url(../../img/banner-image.png);
+    background-size: cover;
+    background-position: center;
+
+    color: #FFFFFF;
+}
+
+.banner__description {
+    position: absolute;
+    bottom: 32px;
+}
+
+.banner__description h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.banner__description p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.banner__button {
+    margin-top: 16px;
+}
