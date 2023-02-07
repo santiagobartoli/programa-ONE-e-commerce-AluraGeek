@@ -36,8 +36,4 @@ _Future features_
 > Planeo expandir el proyecto para hacerlo completamente funcional, con carrito de compras, registro de usuarios "clientes",  página de checkout, integración con algún metodo de pago, modificacion y eliminación de los productos cargados, etc.
 
 > _I want to make this site completely functional with a shopping cart, registry page for "customer" clients, checkout page, integration with some payment method, update and delete products page, etc._
-
-## TODO: licence
-> 
-
-> 
+ 
