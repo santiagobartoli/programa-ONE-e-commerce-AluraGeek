@@ -37,7 +37,3 @@ _Future features_
 
 > _I want to make this site completely functional with a shopping cart, registry page for "customer" clients, checkout page, integration with some payment method, update and delete products page, etc._
 
-## TODO: licence
-> 
-
-> 
