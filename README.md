@@ -9,7 +9,7 @@
 
 <p align=center><img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO%2050%25-green"><br></p>
 
-<h3>align=center><a href="https://santiagobartoli.github.io/programa-ONE-e-commerce-AluraGeek"><b>www.alurageek.com</b></a></h3>
+<h3 align=center><a href="https://santiagobartoli.github.io/programa-ONE-e-commerce-AluraGeek"><b>www.alurageek.com</b></a></h3>
 
 ## Descripcion
 _Description_
