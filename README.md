@@ -13,10 +13,10 @@
 
 ## Descripcion
 _Description_
-> La web cumple con los requisitos del "challenge 02 front-end", la cual consta de una página de inicio donde se muestran los principales productos agrupados por categoría; una página donde se listan todos los productos en stock; una página donde se muestran la información completa del producto seleccionado y una lista de productos similares; una página de inicio de sesión para validar que el usuario tenga credenciales de "administrador"; y finalmente una página donde el usuario "administrador" puede cargar un producto nuevo con toda su información.
+> La web cumple con los requisitos del "challenge 02 front-end" ([link al Figma](https://www.figma.com/file/NUd563IRcuwUGyFGTwPP5W/AluraGeek?t=s92K63xfbLt1hcDi-1)), la cual consta de una página de inicio donde se muestran los principales productos agrupados por categoría; una página donde se listan todos los productos en stock; una página donde se muestran la información completa del producto seleccionado y una lista de productos similares; una página de inicio de sesión para validar que el usuario tenga credenciales de "administrador"; y finalmente una página donde el usuario "administrador" puede cargar un producto nuevo con toda su información.
 > En las distintas ramas se pueden visualizar las versiones por las que fue pasando el proyecto.
 
-> _This web is made following the requirements of the "front-end challenge 02". It has a home page which shows the principal products grouped by category; a page that shows all the products available; a page with all the info about a selected product and a list of similar products; a page to login and validate that the user has "admin" credentials; and a page where an "admin" user can create a new product._
+> _This web is made following the requirements of the "front-end challenge 02" ([link to proyect Figma](https://www.figma.com/file/NUd563IRcuwUGyFGTwPP5W/AluraGeek?t=s92K63xfbLt1hcDi-1)). It has a home page which shows the principal products grouped by category; a page that shows all the products available; a page with all the info about a selected product and a list of similar products; a page to login and validate that the user has "admin" credentials; and a page where an "admin" user can create a new product._
 > _There are diferents branches to show a version history of the project._
 
 ## Estado del proyecto
