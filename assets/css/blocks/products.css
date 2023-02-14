@@ -46,3 +46,25 @@
 .product {
     margin-bottom: 64px;
 }
+
+/* * * RESPONSIVE * * */
+
+@media screen and (max-width: 900px) {
+
+    .list__name {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .list__header {
+        display: initial;
+    }
+
+    .list__button {
+        margin-top: 16px;
+    }
+
+}

@@ -30,3 +30,25 @@
 .banner__button {
     margin-top: 16px;
 }
+
+@media screen and (max-width: 900px) {
+
+    
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .banner {
+        height: 192px;
+    }
+
+    .banner__description h2 {
+        font-size: 22px;
+    }
+
+    .banner__description p {
+        font-size: 14px;
+    }
+
+}

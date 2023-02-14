@@ -7,9 +7,9 @@
 
 > _This proyect forms part of Front-end path of [Oracle Next Education](https://www.oracle.com/ar/education/oracle-next-education/). It is an e-commerce web with ome page, products list and product info, and a section to login an "admin" user to create new products. (see more details on "description" section)_
 
-<p align=center><img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO%2035%25-yellowgreen"><br></p>
+<p align=center><img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO%2050%25-green"><br></p>
 
-<p align=center><a href="#"><b>www.alurageek.com</b> (not deployed yet, available on 8/02)</a></p>
+<h3>align=center><a href="https://santiagobartoli.github.io/programa-ONE-e-commerce-AluraGeek"><b>www.alurageek.com</b></a></h3>
 
 ## Descripcion
 _Description_
@@ -21,11 +21,13 @@ _Description_
 
 ## Estado del proyecto
 _Project status_
-> El proyecto cuenta con las vistas estáticas pero todavía sin ser responsivo. El paso siguiente es hacerlo responsivo para tablets y móviles, y luego hacerlo funcional mediante javascript.
+> El proyecto cuenta con las vistas estáticas y los links básicos para dirigirse a las demás vistas. Todas las vistas son responsivas para tablets y para móviles.
+El paso siguiente es incluir toda la lógica en javascript y detallar estilos de algunos elementos para hacerlos mas interactivos.
 
-> _The project has static views of all teh pages, but it is not responsive yet. The next step is make all the views responsives and then add the functionalities with javascript._
+> _The project has static views of all pages with functional links to go through all diferent views. All of its are responsive for tablet and mobile.
+The next step is add all the functionalities with javascript and detail some elements styles to make the site more interactive._
 
-## Realizado con:
+## Tecnologías utilizadas:
 _Maked with:_
 > Las vistas las realicé únicamente con HTML y CSS.
 

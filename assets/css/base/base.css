@@ -69,3 +69,36 @@ body {
     color: var(--color-blue-alura);
 }
 
+/* * * RESPONSIVE * * */
+
+@media screen and (max-width: 900px) {
+    
+    .container {
+        margin: 0 4%;
+    }
+    
+    .button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .product img{
+        width: 164px;
+        height: 174px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .product {
+        font-size: 14px;
+    }
+
+    .product img{
+        width: 140px;
+        height: 174px;
+        object-fit: cover;
+    }
+
+}

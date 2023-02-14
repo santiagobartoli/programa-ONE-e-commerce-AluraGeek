@@ -92,3 +92,45 @@
     text-align: center;
     font-size: 16px;
 }
+
+/* * * RESPONSIVE * * */
+
+@media screen and (max-width: 900px) {
+
+    .footer {
+        height: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer__navmap {
+        height: 234px; /*Es lo que mide en desktop view. Sino no puedo hacer que no comprima.*/
+    }
+
+    .footer__contact {
+        width: initial;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .footer {
+        height: fit-content;
+        padding: 16px 0;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+
+    .footer__navmap {
+        align-items: center;
+    }
+
+    .footer__contact {
+        width: initial;
+        margin-top: 32px;
+    }
+
+}
+

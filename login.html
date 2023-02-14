@@ -21,12 +21,14 @@
 			<div class="nav">
 
 				<div class="nav__logoSearch">
-					<img class="nav__logoSearch__logo" src="assets/img/Logo.svg" alt="Logo de AluraGeek">
+					<a href="./index.html"><img class="nav__logoSearch__logo" src="assets/img/Logo.svg" alt="Logo de AluraGeek"></a>
 					<form action="#" class="nav__logoSearch__search">
 					  <input type="text" placeholder="¿Qué deseas buscar?" name="search">
-					  <button type="submit"><img src="assets/img/VectorSearch-icon.svg" alt="Search icon"></button>
+					  <button class="search__button" type="submit"><img src="assets/img/VectorSearch-icon.svg" alt="Search icon"></button>
 					</form>
 				</div>
+
+				<a class="search__button--side" href="#"><img src="assets/img/VectorSearch-icon.svg" alt="Search icon"></a>
 
 			</div>
 		</div>
@@ -41,7 +43,9 @@
                     <input class="no-focus border--style" type="text" placeholder="Escriba su correo electrónico" title="Ingrese su e-mail" required>
                     <input class="no-focus border--style" type="text" placeholder="Escriba su contraseña" title="Ingrese su contraseña" required>
                     
-                    <button class="login__button button" type="submit">Entrar</button>
+					<!-- TODO: implement <button> functionality and replace <a> below -->
+                    <!-- <button class="login__button button" type="submit">Entrar</button> -->
+					<a id="temporary-button" href="./newproduct.html" class="login__button button">Entrar</a>
                     
                 </fieldset>
             </form>
@@ -55,7 +59,7 @@
 				<div class="footer">
 
 					<div class="footer__logo">
-						<img class="" src="assets/img/Logo.svg" alt="Logo de AluraGeek">
+						<a href="./index.html"><img class="" src="assets/img/Logo.svg" alt="Logo de AluraGeek"></a>
 					</div>
 
 					<div class="footer__navmap">

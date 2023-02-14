@@ -31,5 +31,36 @@
     font-size: 18px;
 }
 
+#temporary-button {
+    display: table-cell;
+}
+
+/* * * RESPONSIVE * * */
+
+@media screen and (max-width: 900px) {
+
+    .login__form {
+        margin: 45px auto 45px auto;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .login__form {
+        width: calc(100% - 80px);
+        margin: 45px auto 45px auto;
+    }
+
+    .login__form input, .login__button {
+        width: 100%;
+    }
+
+    #temporary-button {
+        display: block;
+        width: auto;    
+    }
+    
+}
 
 

@@ -43,3 +43,47 @@
     gap: 16px;
     margin-top: 16px;
 }
+
+/* * * RESPONSIVE * * */
+
+@media screen and (max-width: 900px) {
+
+    .productDetails__img {
+        width: 254px;
+    }
+
+    .productDetails__title {
+        font-size: 22px;
+    }
+
+    .productDetails__description {
+        font-size: 14px;
+    }
+
+    .product:nth-child(5),
+    .product:nth-child(6) {
+        display: none;
+    }
+
+    .similarProducts__title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .productDetails {
+        display: inherit;
+        margin-top: 0;
+    }
+
+    .productDetails__img {
+        width: 100vw;
+        max-height: 192px;
+        position: relative;
+        left: -15px;
+
+        object-fit: cover;
+    }
+
+}
